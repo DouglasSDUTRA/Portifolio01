@@ -1,1 +1,164 @@
+@charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+body {
+    text-align: justify;
+    font-size: 21px;
+    background-image: url(../img/rachel-coyne-1cWQO2c783M-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    
+
+    
+}
+
+#menuh ul {
+    list-style: none;
+    padding: 0;
+    background-color: #f3700b;
+    text-align: center;
+    font-size: 17px;
+} 
+
+#menuh ul li {
+    display: inline;
+}
+
+#menuh ul li a {
+    color: aliceblue;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+#menuh ul li a:hover {
+    background-color: #e26a0f;
+}
+
+
+p, h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px; 
+    
+}
+
+#paragrafo01 {
+    width: 200%;
+    max-width: 1000px;
+    background-color: transparent;
+    padding: 25px;
+    
+}
+
+#paragrafo02A {
+    width: 300%;
+    max-width: 900px;
+    background-color: transparent;
+    padding: 30px;
+    
+}
+
+
+
+#paragrafo02C {
+    width: 300%;
+    max-width: 900px;
+    background-color: transparent;
+    padding: 30px;
+    
+}
+
+#paragrafo03 {
+    width: 100%;
+    max-width: 700px;
+    background-color: transparent;
+    padding: 25px;
+    
+}
+
+#paragrafo04 {
+    width: 300%;
+    max-width: 300px;
+    background-color: transparent;
+    padding: 25px;
+    
+}
+
+#paragrafo05 {
+    width: 200%;
+    max-width: 1000px;
+    background-color: transparent;
+    padding: 25px;
+    
+}
+
+#linkproj {
+    color: #ff6600;
+}
+
+#linkproj:hover {
+    color: #aa0200;
+}
+
+.row {
+    padding: 0 20px;
+    display: table;
+    width: 70%;
+}
+
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    
+}
+
+label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+    color: #ffff;
+}
+
+button {
+    background-color: #ffff;
+    border: 1px solid #ff6600;
+    color:#ff6600;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #ff6600;
+    color: #ffff;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+}
